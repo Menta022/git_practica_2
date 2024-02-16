@@ -36,7 +36,7 @@ namespace git_practica
 
         private void btn_borrar_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void dtg_persona_CellClick(object sender, DataGridViewCellEventArgs e)

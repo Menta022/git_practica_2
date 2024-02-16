@@ -175,13 +175,16 @@
             // 
             // txt_edad_borrar
             // 
+
             this.txt_edad_borrar.Location = new System.Drawing.Point(383, 368);
             this.txt_edad_borrar.Name = "txt_edad_borrar";
             this.txt_edad_borrar.Size = new System.Drawing.Size(100, 20);
             this.txt_edad_borrar.TabIndex = 16;
+
             // 
             // txt_apellido_borrar
             // 
+
             this.txt_apellido_borrar.Location = new System.Drawing.Point(516, 322);
             this.txt_apellido_borrar.Name = "txt_apellido_borrar";
             this.txt_apellido_borrar.Size = new System.Drawing.Size(100, 20);
@@ -189,16 +192,18 @@
             // 
             // txt_nombre_borrar
             // 
+
             this.txt_nombre_borrar.Location = new System.Drawing.Point(383, 322);
             this.txt_nombre_borrar.Name = "txt_nombre_borrar";
             this.txt_nombre_borrar.Size = new System.Drawing.Size(100, 20);
             this.txt_nombre_borrar.TabIndex = 14;
+
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(739, 412);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
