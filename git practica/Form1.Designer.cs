@@ -45,6 +45,7 @@
             this.txt_apellido_borrar = new System.Windows.Forms.TextBox();
             this.txt_nombre_borrar = new System.Windows.Forms.TextBox();
             this.lbl_mensaje = new System.Windows.Forms.Label();
+
             ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).BeginInit();
             this.SuspendLayout();
             // 
@@ -261,6 +262,7 @@
         private System.Windows.Forms.TextBox txt_apellido_borrar;
         private System.Windows.Forms.TextBox txt_nombre_borrar;
         private System.Windows.Forms.Label lbl_mensaje;
+
     }
 }
 
