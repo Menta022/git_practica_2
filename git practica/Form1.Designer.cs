@@ -41,9 +41,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_edad_borrar = new System.Windows.Forms.TextBox();
+            this.txt_apellido_borrar = new System.Windows.Forms.TextBox();
+            this.txt_nombre_borrar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,6 +59,7 @@
             this.dtg_persona.RowHeadersVisible = false;
             this.dtg_persona.Size = new System.Drawing.Size(308, 219);
             this.dtg_persona.TabIndex = 0;
+            this.dtg_persona.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtg_persona_CellClick);
             // 
             // btn_cargar
             // 
@@ -172,26 +173,26 @@
             this.label7.TabIndex = 17;
             this.label7.Text = "Nombre:";
             // 
-            // textBox1
+            // txt_edad_borrar
             // 
-            this.textBox1.Location = new System.Drawing.Point(383, 368);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 16;
+            this.txt_edad_borrar.Location = new System.Drawing.Point(383, 368);
+            this.txt_edad_borrar.Name = "txt_edad_borrar";
+            this.txt_edad_borrar.Size = new System.Drawing.Size(100, 20);
+            this.txt_edad_borrar.TabIndex = 16;
             // 
-            // textBox2
+            // txt_apellido_borrar
             // 
-            this.textBox2.Location = new System.Drawing.Point(516, 322);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 15;
+            this.txt_apellido_borrar.Location = new System.Drawing.Point(516, 322);
+            this.txt_apellido_borrar.Name = "txt_apellido_borrar";
+            this.txt_apellido_borrar.Size = new System.Drawing.Size(100, 20);
+            this.txt_apellido_borrar.TabIndex = 15;
             // 
-            // textBox3
+            // txt_nombre_borrar
             // 
-            this.textBox3.Location = new System.Drawing.Point(383, 322);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 14;
+            this.txt_nombre_borrar.Location = new System.Drawing.Point(383, 322);
+            this.txt_nombre_borrar.Name = "txt_nombre_borrar";
+            this.txt_nombre_borrar.Size = new System.Drawing.Size(100, 20);
+            this.txt_nombre_borrar.TabIndex = 14;
             // 
             // Form1
             // 
@@ -202,9 +203,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_edad_borrar);
+            this.Controls.Add(this.txt_apellido_borrar);
+            this.Controls.Add(this.txt_nombre_borrar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -240,9 +241,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_edad_borrar;
+        private System.Windows.Forms.TextBox txt_apellido_borrar;
+        private System.Windows.Forms.TextBox txt_nombre_borrar;
     }
 }
 

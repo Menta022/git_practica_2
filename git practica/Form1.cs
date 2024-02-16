@@ -38,5 +38,17 @@ namespace git_practica
         {
 
         }
+
+        private void dtg_persona_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int indice = e.RowIndex;
+
+            if (indice != -1)
+            {
+                txt_nombre_borrar.Text = dtg_persona["Nombre", indice].Value.ToString();
+                txt_apellido_borrar.Text = dtg_persona["Apellido", indice].Value.ToString();
+                txt_edad_borrar.Text = dtg_persona["Edad", indice].Value.ToString();
+            }
+        }
     }
 }
