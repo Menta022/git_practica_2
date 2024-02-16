@@ -28,9 +28,9 @@ namespace git_practica
             dt.Rows.Add("anna", "redfield", 20);
             dt.Rows.Add("elsa", "pato", 22);
             dt.Rows.Add("pepe", "argento", 40);
-            dtg_persona.DataSource = dt;
-            dtg_persona.Columns["Nombre"].SortMode = DataGridViewColumnSortMode.NotSortable;
-            dtg_persona.Columns["Apellido"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dtg_personas_2.DataSource = dt;
+            dtg_personas_2.Columns["Nombre"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dtg_personas_2.Columns["Apellido"].SortMode = DataGridViewColumnSortMode.NotSortable;
             //dtg_persona.Columns["Edad"].SortMode = DataGridViewColumnSortMode.NotSortable;
         }
 

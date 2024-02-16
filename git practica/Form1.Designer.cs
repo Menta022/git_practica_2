@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtg_persona = new System.Windows.Forms.DataGridView();
             this.btn_cargar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_borrar = new System.Windows.Forms.Button();
@@ -44,23 +43,11 @@
             this.txt_edad_borrar = new System.Windows.Forms.TextBox();
             this.txt_apellido_borrar = new System.Windows.Forms.TextBox();
             this.txt_nombre_borrar = new System.Windows.Forms.TextBox();
-
             this.lbl_mensaje = new System.Windows.Forms.Label();
-            // 
-            // dtg_persona
-            // 
-            this.dtg_persona.AllowUserToAddRows = false;
-            this.dtg_persona.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dtg_persona.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dtg_persona.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dtg_persona.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg_persona.Location = new System.Drawing.Point(41, 40);
-            this.dtg_persona.Name = "dtg_persona";
-            this.dtg_persona.ReadOnly = true;
-            this.dtg_persona.RowHeadersVisible = false;
-            this.dtg_persona.Size = new System.Drawing.Size(308, 219);
-            this.dtg_persona.TabIndex = 0;
-            this.dtg_persona.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtg_persona_CellClick);
+            this.button1 = new System.Windows.Forms.Button();
+            this.dtg_personas_2 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dtg_personas_2)).BeginInit();
+            this.SuspendLayout();
             // 
             // btn_cargar
             // 
@@ -207,13 +194,39 @@
             this.lbl_mensaje.Size = new System.Drawing.Size(169, 20);
             this.lbl_mensaje.TabIndex = 20;
             this.lbl_mensaje.Text = "mensaje desde main-2";
-
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(607, 244);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(103, 31);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Cargar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // dtg_personas_2
+            // 
+            this.dtg_personas_2.AllowUserToAddRows = false;
+            this.dtg_personas_2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dtg_personas_2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dtg_personas_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtg_personas_2.EnableHeadersVisualStyles = false;
+            this.dtg_personas_2.Location = new System.Drawing.Point(41, 62);
+            this.dtg_personas_2.Name = "dtg_personas_2";
+            this.dtg_personas_2.ReadOnly = true;
+            this.dtg_personas_2.RowHeadersVisible = false;
+            this.dtg_personas_2.Size = new System.Drawing.Size(299, 213);
+            this.dtg_personas_2.TabIndex = 21;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(739, 412);
+            this.Controls.Add(this.dtg_personas_2);
             this.Controls.Add(this.lbl_mensaje);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
@@ -229,13 +242,13 @@
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.btn_borrar);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_cargar);
-            this.Controls.Add(this.dtg_persona);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "it ";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtg_personas_2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,6 +273,8 @@
         private System.Windows.Forms.TextBox txt_apellido_borrar;
         private System.Windows.Forms.TextBox txt_nombre_borrar;
         private System.Windows.Forms.Label lbl_mensaje;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dtg_personas_2;
 
     }
 }
