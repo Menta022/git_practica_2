@@ -215,11 +215,11 @@
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(444, 244);
+            this.button2.Location = new System.Drawing.Point(380, 244);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 31);
+            this.button2.Size = new System.Drawing.Size(212, 31);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Cargar";
+            this.button2.Text = "Pruba de modificar";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // textBox1
