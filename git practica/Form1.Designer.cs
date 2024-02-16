@@ -85,13 +85,15 @@
             // 
             // btn_borrar
             // 
+            this.btn_borrar.BackColor = System.Drawing.Color.Red;
             this.btn_borrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_borrar.Location = new System.Drawing.Point(637, 360);
+            this.btn_borrar.ForeColor = System.Drawing.Color.White;
+            this.btn_borrar.Location = new System.Drawing.Point(637, 356);
             this.btn_borrar.Name = "btn_borrar";
             this.btn_borrar.Size = new System.Drawing.Size(90, 40);
             this.btn_borrar.TabIndex = 3;
             this.btn_borrar.Text = "Borrar";
-            this.btn_borrar.UseVisualStyleBackColor = true;
+            this.btn_borrar.UseVisualStyleBackColor = false;
             this.btn_borrar.Click += new System.EventHandler(this.btn_borrar_Click);
             // 
             // txt_nombre
