@@ -63,13 +63,14 @@
             // 
             // btn_cargar
             // 
+            this.btn_cargar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_cargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cargar.Location = new System.Drawing.Point(637, 83);
             this.btn_cargar.Name = "btn_cargar";
             this.btn_cargar.Size = new System.Drawing.Size(90, 40);
             this.btn_cargar.TabIndex = 1;
             this.btn_cargar.Text = "Cargar";
-            this.btn_cargar.UseVisualStyleBackColor = true;
+            this.btn_cargar.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
