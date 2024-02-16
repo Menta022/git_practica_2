@@ -46,6 +46,7 @@
             this.lbl_mensaje = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dtg_personas_2 = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_personas_2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -220,6 +221,17 @@
             this.dtg_personas_2.Size = new System.Drawing.Size(299, 213);
             this.dtg_personas_2.TabIndex = 21;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(444, 244);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(103, 31);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Cargar";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,6 +254,7 @@
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.btn_borrar);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_cargar);
             this.Name = "Form1";
@@ -275,6 +288,7 @@
         private System.Windows.Forms.Label lbl_mensaje;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dtg_personas_2;
+        private System.Windows.Forms.Button button2;
 
     }
 }
