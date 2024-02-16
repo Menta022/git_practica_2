@@ -52,6 +52,7 @@
             this.dtg_persona.AllowUserToAddRows = false;
             this.dtg_persona.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtg_persona.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dtg_persona.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dtg_persona.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_persona.Location = new System.Drawing.Point(41, 40);
             this.dtg_persona.Name = "dtg_persona";
@@ -175,16 +176,13 @@
             // 
             // txt_edad_borrar
             // 
-
             this.txt_edad_borrar.Location = new System.Drawing.Point(383, 368);
             this.txt_edad_borrar.Name = "txt_edad_borrar";
             this.txt_edad_borrar.Size = new System.Drawing.Size(100, 20);
             this.txt_edad_borrar.TabIndex = 16;
-
             // 
             // txt_apellido_borrar
             // 
-
             this.txt_apellido_borrar.Location = new System.Drawing.Point(516, 322);
             this.txt_apellido_borrar.Name = "txt_apellido_borrar";
             this.txt_apellido_borrar.Size = new System.Drawing.Size(100, 20);
@@ -192,12 +190,10 @@
             // 
             // txt_nombre_borrar
             // 
-
             this.txt_nombre_borrar.Location = new System.Drawing.Point(383, 322);
             this.txt_nombre_borrar.Name = "txt_nombre_borrar";
             this.txt_nombre_borrar.Size = new System.Drawing.Size(100, 20);
             this.txt_nombre_borrar.TabIndex = 14;
-
             // 
             // Form1
             // 
