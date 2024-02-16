@@ -228,7 +228,8 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 15;
-            this.textBox1.Text = "prueba main-2";
+            this.textBox1.Text = "prueba main-2 parte 2";
+
             // 
             // textBox2
             // 
