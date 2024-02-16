@@ -44,6 +44,7 @@
             this.txt_edad_borrar = new System.Windows.Forms.TextBox();
             this.txt_apellido_borrar = new System.Windows.Forms.TextBox();
             this.txt_nombre_borrar = new System.Windows.Forms.TextBox();
+            this.lbl_mensaje = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).BeginInit();
             this.SuspendLayout();
             // 
@@ -198,12 +199,23 @@
             this.txt_nombre_borrar.Size = new System.Drawing.Size(100, 20);
             this.txt_nombre_borrar.TabIndex = 14;
             // 
+            // lbl_mensaje
+            // 
+            this.lbl_mensaje.AutoSize = true;
+            this.lbl_mensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_mensaje.Location = new System.Drawing.Point(423, 206);
+            this.lbl_mensaje.Name = "lbl_mensaje";
+            this.lbl_mensaje.Size = new System.Drawing.Size(169, 20);
+            this.lbl_mensaje.TabIndex = 20;
+            this.lbl_mensaje.Text = "mensaje desde main-2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(739, 412);
+            this.Controls.Add(this.lbl_mensaje);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -248,6 +260,7 @@
         private System.Windows.Forms.TextBox txt_edad_borrar;
         private System.Windows.Forms.TextBox txt_apellido_borrar;
         private System.Windows.Forms.TextBox txt_nombre_borrar;
+        private System.Windows.Forms.Label lbl_mensaje;
     }
 }
 
