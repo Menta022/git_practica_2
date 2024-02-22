@@ -45,9 +45,9 @@ namespace git_practica
 
             if (indice != -1)
             {
-                txt_nombre_borrar.Text = dtg_persona["Nombre", indice].Value.ToString();
-                txt_apellido_borrar.Text = dtg_persona["Apellido", indice].Value.ToString();
-                txt_edad_borrar.Text = dtg_persona["Edad", indice].Value.ToString();
+                txt_nombre_borrar.Text = dtg_personas_2["Nombre", indice].Value.ToString();
+                txt_apellido_borrar.Text = dtg_personas_2["Apellido", indice].Value.ToString();
+                txt_edad_borrar.Text = dtg_personas_2["Edad", indice].Value.ToString();
             }
         }
     }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.btn_borrar = new System.Windows.Forms.Button();
             this.txt_nombre = new System.Windows.Forms.TextBox();
             this.txt_apellido = new System.Windows.Forms.TextBox();
@@ -49,17 +48,13 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_personas_2)).BeginInit();
+
+            this.lbl_mensaje_desde_main2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Personas:";
+            
             // 
             // btn_borrar
             // 
@@ -238,6 +233,17 @@
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 15;
             // 
+            // lbl_mensaje_desde_main2
+            // 
+            this.lbl_mensaje_desde_main2.AutoSize = true;
+            this.lbl_mensaje_desde_main2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_mensaje_desde_main2.ForeColor = System.Drawing.Color.White;
+            this.lbl_mensaje_desde_main2.Location = new System.Drawing.Point(60, 287);
+            this.lbl_mensaje_desde_main2.Name = "lbl_mensaje_desde_main2";
+            this.lbl_mensaje_desde_main2.Size = new System.Drawing.Size(164, 20);
+            this.lbl_mensaje_desde_main2.TabIndex = 21;
+            this.lbl_mensaje_desde_main2.Text = "Mensaje desde main2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -245,6 +251,8 @@
             this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(739, 412);
             this.Controls.Add(this.dtg_personas_2);
+
+            this.Controls.Add(this.lbl_mensaje_desde_main2);
             this.Controls.Add(this.lbl_mensaje);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
@@ -261,7 +269,6 @@
             this.Controls.Add(this.txt_apellido);
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.btn_borrar);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -275,10 +282,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dtg_persona;
-        private System.Windows.Forms.Button btn_cargar;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_borrar;
         private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.TextBox txt_apellido;
@@ -300,6 +303,7 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lbl_mensaje_desde_main2;
 
     }
 }
