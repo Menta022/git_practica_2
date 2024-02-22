@@ -20,3 +20,4 @@ C:\Programacion2\git practica\git_practica_2\git practica\bin\Debug\git practica
 C:\Programacion2\git practica\git_practica_2\git practica\obj\x86\Debug\git_practica.Form1.resources
 C:\Programacion2\git practica\git_practica_2\git practica\obj\x86\Debug\git_practica.Properties.Resources.resources
 C:\Programacion2\git practica\git_practica_2\git practica\obj\x86\Debug\git practica.csproj.GenerateResource.Cache
+C:\Programacion2\git practica\git_practica_2\git practica\obj\x86\Debug\git practica.csprojResolveAssemblyReference.cache
